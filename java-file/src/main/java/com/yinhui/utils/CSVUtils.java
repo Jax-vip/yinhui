@@ -64,9 +64,9 @@ public class CSVUtils {
                         String va = "";
                         String property = BeanUtils.getProperty(row, (String) propertyEntry.getKey());
                         if (property != null && !property.equals("")) {
-                            csvFileOutputStream.write((String) property);
+                            csvFileOutputStream.write(property);
                         } else {
-                            csvFileOutputStream.write((String) va);
+                            csvFileOutputStream.write(va);
                         }
                         if (propertyIterator.hasNext()) {
                             //如果需要生成正常的csv文件，则用","
