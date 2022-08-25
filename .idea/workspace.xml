@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77120a2a-7cb5-4520-8c3f-201161767388" name="Default Changelist" comment="a">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f9e5818a310b17b42922f45b73eb572f88388fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/596b2f529bdd75f35be7b29a3823b5308b1604de" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d345532cf5dc94545f7bf828a2356f87009c6fcd" beforeDir="false" />
+    <list default="true" id="77120a2a-7cb5-4520-8c3f-201161767388" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java-comon/src/main/java/com/yinhui/model/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hutool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hutool/src/main/java/com/yinhui/HutoolApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hutool/src/main/java/com/yinhui/clone/CloneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43f41e68166d1ed8abe670581b6fa4eef4823454" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-file/target/classes/com/yinhui/utils/CSVUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-file/target/classes/com/yinhui/utils/CSVUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +72,26 @@
       <recent name="D:\study\java-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CSVUtils">
+  <component name="RunManager" selected="Application.CloneTest">
     <configuration name="CSVUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yinhui.utils.CSVUtils" />
       <module name="java-file" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yinhui.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yinhui.clone.CloneTest" />
+      <module name="java-hutool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yinhui.clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CloneTest" />
         <item itemvalue="Application.CSVUtils" />
         <item itemvalue="Spring Boot.Application" />
       </list>
@@ -126,7 +142,9 @@
       <option name="presentableId" value="Default" />
       <updated>1661235811455</updated>
       <workItem from="1661235812735" duration="8318000" />
-      <workItem from="1661244978820" duration="2162000" />
+      <workItem from="1661244978820" duration="3119000" />
+      <workItem from="1661333558774" duration="1527000" />
+      <workItem from="1661413797974" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1661245061992</created>
@@ -156,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661246960036</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="a">
+      <created>1661247255455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661247255455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
