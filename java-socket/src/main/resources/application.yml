@@ -1,0 +1,11 @@
+server:
+  port: 9005
+
+spring:
+  profiles:
+    active: local
+  application:
+    name: socket
+
+smart-socket:
+  port: 2222
